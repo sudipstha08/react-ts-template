@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { FC, ReactNode } from 'react'
 
-const HomePage = () => {
+interface IProps {
+  children?: ReactNode
+}
+
+const HomePage: FC<IProps> = () => {
   return <div>Homepage</div>
 }
 

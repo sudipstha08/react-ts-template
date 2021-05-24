@@ -42,7 +42,6 @@ module.exports = {
     "import/first": "error",
     "import/no-duplicates": "error",
     "react/jsx-no-target-blank": 0,
-    "no-unused-vars": "error",
     "no-useless-return": "error",
     "no-return-await": "error",
     "no-else-return": "error",
@@ -54,5 +53,9 @@ module.exports = {
     "react/react-in-jsx-scope": 0,
     "@typescript-eslint/no-this-alias": 0,
     "react/no-string-refs": 0,
+    'no-unused-vars': 0,
+    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/member-delimiter-style': 0,
+    '@typescript-eslint/semi': 0
   },
 }
