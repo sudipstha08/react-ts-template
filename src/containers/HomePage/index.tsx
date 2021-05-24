@@ -1,7 +1,7 @@
 import React, { FC, ReactNode } from 'react'
 
 interface IProps {
-  children?: ReactNode
+  children?: ReactNode;
 }
 
 const HomePage: FC<IProps> = () => {
