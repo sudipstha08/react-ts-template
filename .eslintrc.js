@@ -55,7 +55,7 @@ module.exports = {
     "react/no-string-refs": 0,
     'no-unused-vars': 0,
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/member-delimiter-style': 0,
-    '@typescript-eslint/semi': 0
+    '@typescript-eslint/semi': 0,
+    '@typescript-eslint/member-delimiter-style': 2
   },
-}
+};
