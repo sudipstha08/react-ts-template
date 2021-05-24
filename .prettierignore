@@ -1,0 +1,6 @@
+#PrettierIgnore
+
+.eslintrc.js
+package-lock.json
+yarn.lock
+package.json
