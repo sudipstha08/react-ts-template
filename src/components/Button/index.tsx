@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 
 interface IProps {
-  label: string;
+  label: string
 }
 
 const Button: FC<IProps> = ({ label }) => {
