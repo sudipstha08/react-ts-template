@@ -6,7 +6,7 @@ const prettierOptions = JSON.parse(
 )
 
 module.exports = {
-  extends: ['react-app', 'prettier'],
+  extends: ['eslint:recommended', 'react-app', 'prettier'],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': ['error', prettierOptions],
@@ -36,9 +36,10 @@ module.exports = {
         '@typescript-eslint/no-var-requires': 0,
         'no-async-promise-executor': 0,
         'import/no-named-as-default': 0,
+        '@typescript-eslint/no-unused-vars': 2,
         '@typescript-eslint/explicit-module-boundary-types': 0,
         'react/jsx-uses-react': 0,
-        'react/react-in-jsx-scope': 0,
+        'react/react-in-jsx-scope': 1,
       },
     },
   ],

@@ -1,7 +1,6 @@
 /* eslint-disable no-console */
-import axios, { AxiosRequestConfig } from "axios";
+import axios, { AxiosInstance } from 'axios'
 
-export const API = axios.create({
+export const API: AxiosInstance = axios.create({
   baseURL: process.env.BASE_URL,
-});
-
+})
