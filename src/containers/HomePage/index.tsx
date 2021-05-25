@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { FC } from 'react'
 
-const HomePage = () => {
-  return (
-    <div>
-      Homepage
-    </div>
-  )
+interface IProps {
+  data?: any
+}
+
+const HomePage: FC<IProps> = () => {
+  return <div>Homepage</div>
 }
 
 export default HomePage

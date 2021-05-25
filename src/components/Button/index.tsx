@@ -5,11 +5,7 @@ interface IProps {
 }
 
 const Button: FC<IProps> = ({ label }) => {
-  return (
-    <button>
-      label
-    </button>
-  )
+  return <button>label</button>
 }
 
 export { Button }
