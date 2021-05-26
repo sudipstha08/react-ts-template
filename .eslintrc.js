@@ -29,7 +29,7 @@ module.exports = {
         'import/first': 'error',
         'import/no-duplicates': 'error',
         'react/jsx-no-target-blank': 0,
-        'no-unused-vars': 'error',
+        'no-unused-vars': 'off',
         'no-useless-return': 'error',
         'no-return-await': 'error',
         'no-else-return': 'error',
