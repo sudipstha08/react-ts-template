@@ -5,7 +5,12 @@ interface IProps {
 }
 
 const HomePage: FC<IProps> = () => {
-  return <div>Homepage</div>
+  return (
+    <>
+      <div>Home page 🌏 </div>
+      <div>Happy coding 😉</div>
+    </>
+  )
 }
 
 export default HomePage
