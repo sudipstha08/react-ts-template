@@ -1,1 +1,0 @@
-export { fetchHomeData } from './home'
