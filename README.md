@@ -28,6 +28,7 @@
 - Dev Tools
   - [ESLint](https://eslint.org/)
   - [Prettier](https://prettier.io/)
+  - [StyleLint](https://stylelint.io/)
   - [CommitLint](https://commitlint.js.org/#/)
   - [Lint-Staged](https://github.com/okonet/lint-staged)
 
