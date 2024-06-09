@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start-dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "preview": "vite preview",
@@ -12,7 +12,7 @@
     "git-add": "git add .",
     "typecheck": "tsc-files --noEmit",
     "postformat": "prettier . --write",
-    "lint:css": "npx stylelint '**/*.{css,js}'",
+    "lint:css": "npx stylelint --ignore-path .gitignore '**/*.{css,js,tsx,ts}'",
     "lint-staged": "lint-staged"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "pre-commit": "^1.2.2",
     "prettier": "^3.3.1",
     "stylelint": "^16.6.1",
+    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"

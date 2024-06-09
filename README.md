@@ -4,7 +4,7 @@
 
 |     commands   |      description           |
 |----------------|----------------------------|
-| `yarn start`   | run the development server |
+| `yarn start-dev`   | run the development server |
 | `yarn install` | install dependencies       |
 | `yarn lint`	   | run linter                 |
 | `yarn remove`  | remove a package           |

@@ -1,7 +1,15 @@
 {
-  "extends": "stylelint-config-standard",
+  "extends":["stylelint-config-standard"],
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "node_modules/**"
+  ],
   "rules": {
-    "color-named": "never"
+    "color-named": "never",
+    "at-rule-no-unknown": null
   }
 }
 
