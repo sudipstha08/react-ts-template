@@ -26,7 +26,7 @@
       "@/containers": ["./src/containers"],
       "@/hooks": ["./src/hooks"],
       "@/interfaces": ["./src/interfaces"],
-      "@/lib": ["./src/hooks"],
+      "@/lib": ["./src/lib"],
       "@/services": ["./src/services"],
       "@/store": ["./src/store"],
       "@/utils": ["./src/utils"],

@@ -12,29 +12,20 @@
 
 ## Tech Stacks :package:
 
-| tech              | description               |
-| ----------------- | ------------------------- |
-| `react`           | js library                |
-| `axios`           | promise based HTTP client |
-| `react-query`     | data fetching library     |
-| `eslint/prettier` | linting                   |
+| tech          | description       | Links                                              |
+| ------------- | ----------------- | -------------------------------------------------- |
+| `vite`        | FE Tooling        | [Vite](https://vitejs.dev/)                        |
+| `react`       | js library        | [React](https://react.dev/)                        |
+| `typescript`  | types             | [Typescript](https://www.typescriptlang.org/docs/) |
+| `axios`       | HTTP client       | [Axios](https://axios-http.com/)                   |
+| `react-query` | data fetching     | [React Query](https://tanstack.com/query/latest)   |
+| `eslint`      | linting           | [Eslint](https://eslint.org/)                      |
+| `prettier`    | code formatter    | [Prettier](https://prettier.io/)                   |
+| `commitlint`  | commit convebtion | [Commitlint](https://commitlint.js.org/)           |
+| `husky`       | pre-cmmit hooks   | [Husky](https://typicode.github.io/husky/)         |
+| `stylelint`   | css linter        | [Stylelint](https://stylelint.io/)                 |
 
-
-# What's in the boilerplate
-
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- Dev Tools
-  - [ESLint](https://eslint.org/)
-  - [Prettier](https://prettier.io/)
-  - [StyleLint](https://stylelint.io/)
-  - [CommitLint](https://commitlint.js.org/#/)
-  - [Lint-Staged](https://github.com/okonet/lint-staged)
-  - [Husky](https://github.com/typicode/husky)
-
-
-# Motivation
+## Motivation
 
 I was in need of a good, solid, reliable and fast boilerplate to work with React/Typescript projects. I was working with Create-React-App and Webpack previously. Later on I discovered Vite which is a good alternative fro CRA
 
