@@ -1,33 +1,16 @@
 import { QueryClientProvider } from '@tanstack/react-query'
+import { Route, Routes } from 'react-router-dom'
 import { queryClient } from '@/lib'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { HomePage, NotFoundPage } from '@/containers'
 import './App.css'
-import { Button } from '@/components'
 
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <main
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        <h1>HomePage</h1>
-        <img src={viteLogo} className="logo" alt="Vite logo" height={100} />
-        <a href="https://react.dev" target="_blank">
-          <img
-            src={reactLogo}
-            className="logo react"
-            alt="React logo"
-            height={300}
-          />
-        </a>
-        <Button label="Click Me" />
-      </main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route element={<NotFoundPage />} path="*" />
+      </Routes>
     </QueryClientProvider>
   )
 }
