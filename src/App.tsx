@@ -1,7 +1,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Button } from './components/atoms/Button'
+import { Button } from '@/components'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       </div>
 
       <p>Happy coding</p>
-      <Button />
+      <Button label="Hello" />
     </>
   )
 }
