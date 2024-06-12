@@ -1,1 +1,1 @@
-export const molecule = 'molecule'
+export const molecules = 'molecules'
