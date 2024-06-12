@@ -31,6 +31,7 @@
   - [StyleLint](https://stylelint.io/)
   - [CommitLint](https://commitlint.js.org/#/)
   - [Lint-Staged](https://github.com/okonet/lint-staged)
+  - [Husky](https://github.com/typicode/husky)
 
 
 # Motivation

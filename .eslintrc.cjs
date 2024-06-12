@@ -18,6 +18,7 @@ module.exports = {
 	plugins: ["react-refresh", "prettier"],
 	rules: {
     'prettier/prettier': ['error', prettierOptions],
+		"no-console": 'error',
 		"react-refresh/only-export-components": [
 			"warn",
 			{ allowConstantExport: true },
