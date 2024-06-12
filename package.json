@@ -41,17 +41,5 @@
     "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
-  },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "yarn stylelint",
-      "yarn lint",
-      "git-add"
-    ],
-    "*.{ts,tsx}": [
-      "yarn stylelint",
-      "yarn lint",
-      "git-add"
-    ]
   }
 }
