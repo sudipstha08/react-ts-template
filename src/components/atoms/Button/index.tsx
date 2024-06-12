@@ -1,5 +1,9 @@
 import { FC } from 'react'
 
-export const Button: FC = () => {
-  return <div>index</div>
+interface IButton {
+  label: string
+}
+
+export const Button: FC<IButton> = () => {
+  return <button>index</button>
 }
