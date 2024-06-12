@@ -20,7 +20,7 @@ const Configuration: UserConfig = {
   rules: {
     'type-empty': [2, 'never'],
     'type-case': [2, 'always', 'lower-case'],
-    'scope-empty': [2, 'never'],
+    'scope-empty': [0, 'never'],
     'scope-case': [2, 'always', 'lower-case'],
     'subject-empty': [2, 'never'],
     'body-empty': [2, 'always'],
