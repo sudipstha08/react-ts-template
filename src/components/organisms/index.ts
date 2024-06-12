@@ -1,1 +1,1 @@
-export const organism = 'organism'
+export const organisms = 'organisms'

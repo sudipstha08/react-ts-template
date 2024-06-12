@@ -53,8 +53,5 @@
       "yarn lint",
       "git-add"
     ]
-  },
-  "pre-commit": [
-    "lint-staged"
-  ]
+  }
 }
