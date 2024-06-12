@@ -15,7 +15,7 @@ module.exports = {
 	],
 	ignorePatterns: ["dist", ".eslintrc.cjs"],
 	parser: "@typescript-eslint/parser",
-	plugins: ["react-refresh", "prettier"],
+	plugins: ["react-refresh", "prettier", "@tanstack/query"],
 	rules: {
     'prettier/prettier': ['error', prettierOptions],
 		"no-console": 'error',
@@ -23,5 +23,14 @@ module.exports = {
 			"warn",
 			{ allowConstantExport: true },
 		],
+		'@typescript-eslint/no-unused-vars': [
+      2,
+      {
+         vars: 'all',
+         args: 'all',
+         varsIgnorePattern: '^_',
+         argsIgnorePattern: '^_',
+      },
+   ],
 	},
 };

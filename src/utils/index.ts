@@ -1,1 +1,1 @@
-export const util = 'util'
+export * from './config'
