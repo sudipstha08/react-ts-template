@@ -10,6 +10,10 @@
 | `yarn remove`    | remove a package           |
 | `yarn build`     | build application          |
 
+## Quick Start
+- Install dependencies `yarn install`
+- Start dev server `yarn start-dev`
+
 ## Tech Stacks :package:
 
 | tech          | description       | Links                                              |
