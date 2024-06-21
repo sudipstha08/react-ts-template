@@ -2,9 +2,7 @@
   "extends":["stylelint-config-standard"],
   "ignoreFiles": [
     "**/*.js",
-    "**/*.jsx",
     "**/*.ts",
-    "**/*.tsx",
     "node_modules/**"
   ],
   "fix": true,
