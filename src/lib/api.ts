@@ -1,11 +1,11 @@
 import axios, { AxiosError, AxiosInstance, AxiosResponse } from 'axios'
-import { config } from '@/utils'
+import { APP_ENV } from 'src/config'
 
 /**
  * Create Axios instance with custom config
  */
 export const API: AxiosInstance = axios.create({
-  baseURL: config.API_URL,
+  baseURL: APP_ENV.API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
