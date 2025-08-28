@@ -13,6 +13,8 @@ const types = [
   'style',
   'test',
   'spike',
+  'merge',
+  'stylefix',
 ]
 
 const Configuration: UserConfig = {

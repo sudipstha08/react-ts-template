@@ -1,4 +1,5 @@
 {
-  "*.{js,jsx}": ["yarn stylelint", "yarn lint", "git-add"],
-  "*.{ts,tsx}": ["yarn stylelint", "yarn lint", "git-add"]
+  "*.{js,jsx}": ["yarn lint", "yarn postformat", "git-add"],
+  "*.{ts,tsx}": ["yarn lint", "yarn postformat", "git-add"],
+  "*.{json,css,scss,md,html}": ["yarn postformat", "git-add"]
 }

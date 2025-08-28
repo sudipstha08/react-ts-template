@@ -27,9 +27,9 @@
       "@/hooks": ["./src/hooks"],
       "@/interfaces": ["./src/interfaces"],
       "@/lib": ["./src/lib"],
-      "@/services": ["./src/services"],
+      "@/api": ["./src/api"],
       "@/store": ["./src/store"],
-      "@/utils": ["./src/utils"],
+      "@/utils": ["./src/utils"]
     }
   },
   "include": ["src"],

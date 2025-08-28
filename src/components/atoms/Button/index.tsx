@@ -4,6 +4,4 @@ interface IButton {
   label: string
 }
 
-export const Button: FC<IButton> = ({ label }) => {
-  return <button>{label}</button>
-}
+export const Button: FC<IButton> = ({ label }) => <button>{label}</button>

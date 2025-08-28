@@ -15,9 +15,7 @@ export const API: AxiosInstance = axios.create({
  *  Request interceptor
  * */
 API.interceptors.request.use(
-  async axiosConfig => {
-    return axiosConfig
-  },
+  async axiosConfig => axiosConfig,
   (error: AxiosError) => Promise.reject(error),
 )
 
@@ -25,13 +23,10 @@ API.interceptors.request.use(
  * Response interceptor
  **/
 API.interceptors.response.use(
-  (response: AxiosResponse) => {
-    return response.data
-  },
-  async error => {
-    return Promise.reject({
+  (response: AxiosResponse) => response.data,
+  async error =>
+    Promise.reject({
       message: 'Error occured',
       ...error,
-    })
-  },
+    }),
 )

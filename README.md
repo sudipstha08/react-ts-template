@@ -1,4 +1,4 @@
-## React TS template :books:
+# React TS template :books:
 
 ## Basic commands :wrench:
 
@@ -11,6 +11,7 @@
 | `yarn build`     | build application          |
 
 ## Quick Start
+
 - Install dependencies `yarn install`
 - Start dev server `yarn start-dev`
 
@@ -27,7 +28,6 @@
 | `prettier`    | code formatter    | [Prettier](https://prettier.io/)                   |
 | `commitlint`  | commit convebtion | [Commitlint](https://commitlint.js.org/)           |
 | `husky`       | pre-cmmit hooks   | [Husky](https://typicode.github.io/husky/)         |
-| `stylelint`   | css linter        | [Stylelint](https://stylelint.io/)                 |
 
 ## Motivation
 
@@ -36,5 +36,3 @@ I was in need of a good, solid, reliable and fast boilerplate to work with React
 # License
 
 MIT
-
-
