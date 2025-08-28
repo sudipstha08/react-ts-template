@@ -139,32 +139,28 @@ export default defineConfig([
           argsIgnorePattern: '^_',
         },
       ],
-
-      '@/no-restricted-imports': [
-        'warn',
-        {
-          paths: [
-            {
-              name: '@mui/material',
-              message: 'Use "components/base" for importing MUI components.',
-            },
-          ],
-          patterns: [
-            {
-              group: ['@mui/material/*'],
-              message: 'Use "components/base" for importing MUI components.',
-            },
-          ],
-        },
-      ],
     },
 
     settings: {
       'import/resolver': {
-        typescript: {},
-
+        typescript: {
+          alwaysTryTypes: true,
+          project: './tsconfig.json',
+        },
         alias: {
-          map: [['config', './src/config']],
+          map: [
+            ['@/components', './src/components'],
+            ['@/constants', './src/constants'],
+            ['@/containers', './src/containers'],
+            ['@/hooks', './src/hooks'],
+            ['@/types', './src/types'],
+            ['@/lib', './src/lib'],
+            ['@/api', './src/api'],
+            ['@/store', './src/store'],
+            ['@/utils', './src/utils'],
+            ['@/theme', './src/theme'],
+            ['@/config', './src/config'],
+          ],
           extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
         },
       },

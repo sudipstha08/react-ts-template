@@ -1,8 +1,16 @@
 import { QueryClientProvider } from '@tanstack/react-query'
 import { Route, Routes } from 'react-router-dom'
 import { queryClient } from '@/lib'
-import { HomePage, NotFoundPage } from '@/containers'
+import { NotFoundPage } from '@/containers'
 import './App.css'
+import { Loadable } from '@/components'
+
+export const HomePage = Loadable({
+  loader: () =>
+    import('./containers/HomePage').then(module => ({
+      default: module.HomePage,
+    })),
+})
 
 function App() {
   return (

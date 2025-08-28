@@ -25,11 +25,13 @@
       "@/constants": ["./src/constants"],
       "@/containers": ["./src/containers"],
       "@/hooks": ["./src/hooks"],
-      "@/interfaces": ["./src/interfaces"],
+      "@/types": ["src/types"],
       "@/lib": ["./src/lib"],
       "@/api": ["./src/api"],
       "@/store": ["./src/store"],
-      "@/utils": ["./src/utils"]
+      "@/utils": ["./src/utils"],
+      "@/config": ["./src/config"],
+      "@/theme": ["./src/theme"]
     }
   },
   "include": ["src"],
