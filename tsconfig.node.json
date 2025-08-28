@@ -15,7 +15,7 @@
       "@/lib": ["./src/lib"],
       "@/services": ["./src/services"],
       "@/store": ["./src/store"],
-      "@/utils": ["./src/utils"],
+      "@/utils": ["./src/utils"]
     }
   },
   "include": ["vite.config.ts"]
