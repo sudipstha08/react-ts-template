@@ -142,6 +142,9 @@ export default defineConfig([
     },
 
     settings: {
+      react: {
+        version: 'detect',
+      },
       'import/resolver': {
         typescript: {
           alwaysTryTypes: true,

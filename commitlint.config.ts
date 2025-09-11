@@ -15,6 +15,7 @@ const types = [
   'spike',
   'merge',
   'stylefix',
+  'config',
 ]
 
 const Configuration: UserConfig = {
